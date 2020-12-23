@@ -17,7 +17,7 @@ nextButton.addEventListener('click', () => {
 
 function startPresent() {
  resetState()
- location.href = "https://miguelcorre.github.io/present.html"
+ location.href = "https://miguelcorre.github.io/present"
 }
 
 function startGame() {
