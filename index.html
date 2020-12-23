@@ -1,23 +1,28 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Christmas Present</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Quiz App</title>
 </head>
 <body>
-  
-  <div class="present">
-    <div class="lid">
-      <span></span>
+  <div id="quiz" class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
     </div>
-    <div class="promo">
-      <p>20% off promo</p>
-      <h2>CHRISTMAS2020</h2>
-    </div>
-    <div class="box">
-      <span></span>
-      <span></span>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+	  <button id="present-btn" class="next-btn btn hide">Presente!!</button>
     </div>
   </div>
 
