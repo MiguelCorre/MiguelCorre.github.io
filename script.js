@@ -17,7 +17,7 @@ nextButton.addEventListener('click', () => {
 
 function startPresent() {
  resetState()
- location.href = "file:///C:/Users/Miguel%20HPC/Downloads/JavaScript-Quiz-App-master/JavaScript-Quiz-App-master/present.html"
+ location.href = "./present.html"
 }
 
 function startGame() {
