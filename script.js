@@ -17,7 +17,7 @@ nextButton.addEventListener('click', () => {
 
 function startPresent() {
  resetState()
- location.href = "./present.html"
+ location.href = "present.html"
 }
 
 function startGame() {
