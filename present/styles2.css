@@ -87,6 +87,7 @@ body {
 img {
     transition:transform 0.25s ease;
 	position: relative;
+	max-width: 100%;
 }
 
 img:hover {
