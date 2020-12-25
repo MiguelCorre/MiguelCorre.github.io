@@ -86,42 +86,57 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Para que país fomos na nossa primeira viagem juntos?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Espanha', correct: false },
+      { text: 'Itália', correct: true },
+      { text: 'Inglaterra', correct: false },
+      { text: 'Cabo Verde', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Qual o país que o Miguel quer mais visitar?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Suiça', correct: false },
+      { text: 'EUA', correct: false },
+      { text: 'Coreia do Sul', correct: false },
+      { text: 'Japao', correct: true }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Qual a funçao do Miguel no trabalho?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Fullstack Developer', correct: false },
+      { text: 'Business Analyst', correct: false },
+      { text: 'Java Developer', correct: true },
+      { text: 'Database conosseuir', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'No MuayThai, qual o nome que se dá a um pontapé na cabeça?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'High kick', correct: true },
+      { text: 'Middle kick', correct: false },
+      { text: 'Low kick', correct: false },
+      { text: 'Pontapé na cabeça', correct: false }
     ]
   },
     {
-    question: 'Whatuup bruh?',
+    question: 'Qual o carro de sonho do Miguel?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Seat Ibiza FR', correct: false},
+      { text: 'Tesla Model 3', correct: true },
+      { text: 'Renault Clio', correct: false },
+      { text: 'Peugeot 108', correct: false }
     ]
-  }
+  },
+      {
+    question: 'De quem é que o Miguel gosta mais?',
+    answers: [
+      { text: 'Da PS5', correct: false},
+      { text: 'Do Computador', correct: false },
+      { text: 'Da Vera', correct: true},
+      { text: 'Dele mesmo lol', correct: false }
+    ]
+  },
 ]
